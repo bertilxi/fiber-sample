@@ -1,0 +1,20 @@
+{
+  "name": "fiber-sample",
+  "private": "true",
+  "version": "0.1.0",
+  "description": "Fiber repo sample",
+  "author": "Fernando Berti <bertilxi@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "default": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^18.12.3",
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
